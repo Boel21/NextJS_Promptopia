@@ -1,0 +1,23 @@
+Data Fetching
+
+1. Server side rendering (SSR).
+--> Dynamic server render data.
+--> Each request to the server render the page.
+
+2. Static Site Generation (SSG).
+--> It will automaticly catch the data.
+This is recommended for content that not change frecuently like blog bosts, marketing pages.
+
+3. Incremental Static Generation (ISR).
+Instead of messing with the cache the data will be cached after a period of time, it combines the benefits of the two others methods. 
+
+Next.js Supports the following HTTP methods:
+1. **GET**: Retrieves data or resources from the server.
+2. **POST**: Submit data to the server to create a new resource.
+3. **PUT**: Updates or replaces an existing resource on the server.
+4. **PATCH**: Partially updates an existing resource on the server.
+5. **DELETE**: Removes a specific resource from the server.
+6. **HEAD**: Retrieves the supported HTTP methods and other comunication options for a resource.
+
+Improve the SEO of your appication.
+We can define metadata in two ways: Static and Dynamic.
